@@ -29,10 +29,17 @@
   <body>
     <header class="header-background">
       <div class="container header-container">
+        <!-- <div class="nav-header"> -->
         <nav class="navigation">
           <a href="./index.html" class="studio-nav"
             >Web<span style="color: #2e2f42">Studio</span>
           </a>
+
+          <button type="button" class="burger-button btn-menu">
+            <svg class="svg-burger" width="24" height="24">
+              <use href="./images/icons.svg#icon-burger"></use>
+            </svg>
+          </button>
 
           <ul class="nav-menu">
             <li class="first-nav-links">
@@ -76,53 +83,53 @@
       </section>
 
       <section class="qualities">
-        <div class="container title-div">
+        <div class="container title-div qual">
           <h2 class="qualities-hdoi visually-hidden">Qualities</h2>
           <ul class="qualities-list">
-            <li class="qualities-list-li calcul">
+            <li class="calcul">
               <div class="icon-div">
                 <svg width="64" height="64">
                   <use href="./images/icons.svg#icon-strategy"></use>
                 </svg>
               </div>
-              <h3 class="qualities-htrei">Strategy</h3>
-              <p class="qualities-p">
+              <h3 class="qualities-htrei qu">Strategy</h3>
+              <p class="qualities-p quali">
                 Our goal is to identify the business problem to walk away with
                 the perfect and creative solution.
               </p>
             </li>
-            <li class="qualities-list-li calcul">
+            <li class="calcul">
               <div class="icon-div">
                 <svg width="64" height="64">
                   <use href="./images/icons.svg#icon-punctuality"></use>
                 </svg>
               </div>
-              <h3 class="qualities-htrei">Punctuality</h3>
-              <p class="qualities-p">
+              <h3 class="qualities-htrei qu">Punctuality</h3>
+              <p class="qualities-p quali">
                 Bring the key message to the brand's audience for the best price
                 within the shortest possible time.
               </p>
             </li>
-            <li class="qualities-list-li calcul">
+            <li class="calcul">
               <div class="icon-div">
                 <svg width="64" height="64">
                   <use href="./images/icons.svg#icon-diligence"></use>
                 </svg>
               </div>
-              <h3 class="qualities-htrei">Diligence</h3>
-              <p class="qualities-p">
+              <h3 class="qualities-htrei qu">Diligence</h3>
+              <p class="qualities-p quali">
                 Research and confirm brands that present the strongest digital
                 growth opportunities and minimize risk.
               </p>
             </li>
-            <li class="qualities-list-li calcul">
+            <li class="calcul">
               <div class="icon-div">
                 <svg width="64" height="64">
                   <use href="./images/icons.svg#icon-technologies"></use>
                 </svg>
               </div>
-              <h3 class="qualities-htrei">Technologies</h3>
-              <p class="qualities-p">
+              <h3 class="qualities-htrei qu">Technologies</h3>
+              <p class="qualities-p quali">
                 Design practice focused on digital experiences. We bring forth a
                 deep passion for problem-solving.
               </p>
@@ -132,7 +139,7 @@
       </section>
 
       <section class="team-section">
-        <div class="container title-div">
+        <div class="container title-div team">
           <h2 class="ourteam-hdoi">Our Team</h2>
           <ul class="list-ourteam">
             <li class="list-item-ourteam unu">
@@ -312,17 +319,21 @@
       </section>
 
       <section class="portfolio-section">
-        <div class="container title-div">
+        <div class="container title-div porto">
           <h2 class="portfolio-section-hdoi">Our Portfolio</h2>
           <ul class="portfolio-section-ul">
             <li class="portfolio-item">
               <div class="portfolio-image-div">
                 <img
                   class="image"
+                  srcset="
+                    ./images/photo-banking-app.jpg    1x,
+                    ./images/photo-banking-app@2x.jpg 2x
+                  "
                   src="./images/photo-banking-app.jpg"
                   alt="Banking App photo"
-                  width="360"
-                  height="300"
+                  width="266"
+                  height="266"
                 />
                 <p class="portfolio-image-p">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -331,18 +342,22 @@
                 </p>
               </div>
               <div class="nume-categ">
-                <h3 class="qualities-htrei">Banking App</h3>
-                <p class="qualities-p">App</p>
+                <h3 class="qualities-htrei port">Banking App</h3>
+                <p class="qualities-p portof">App</p>
               </div>
             </li>
             <li class="portfolio-item">
               <div class="portfolio-image-div">
                 <img
                   class="image"
+                  srcset="
+                    ./images/photo-cashless-payment.jpg    1x,
+                    ./images/photo-cashless-payment@2x.jpg 2x
+                  "
                   src="./images/photo-cashless-payment.jpg"
                   alt="Cashless Payment photo"
-                  width="360"
-                  height="300"
+                  width="266"
+                  height="266"
                 />
                 <p class="portfolio-image-p">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -351,18 +366,22 @@
                 </p>
               </div>
               <div class="nume-categ">
-                <h3 class="qualities-htrei">Cashless Payment</h3>
-                <p class="qualities-p">Marketing</p>
+                <h3 class="qualities-htrei port">Cashless Payment</h3>
+                <p class="qualities-p portof">Marketing</p>
               </div>
             </li>
             <li class="portfolio-item">
               <div class="portfolio-image-div">
                 <img
                   class="image"
+                  srcset="
+                    ./images/photo-meditation-app.jpg    1x,
+                    ./images/photo-meditation-app@2x.jpg 2x
+                  "
                   src="./images/photo-meditation-app.jpg"
                   alt="Meditation App photo"
-                  width="360"
-                  height="300"
+                  width="266"
+                  height="266"
                 />
                 <p class="portfolio-image-p">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -371,18 +390,22 @@
                 </p>
               </div>
               <div class="nume-categ">
-                <h3 class="qualities-htrei">Meditation App</h3>
-                <p class="qualities-p">App</p>
+                <h3 class="qualities-htrei port">Meditation App</h3>
+                <p class="qualities-p portof">App</p>
               </div>
             </li>
             <li class="portfolio-item">
               <div class="portfolio-image-div">
                 <img
                   class="image"
+                  srcset="
+                    ./images/photo-taxi-service.jpg    1x,
+                    ./images/photo-taxi-service@2x.jpg 2x
+                  "
                   src="./images/photo-taxi-service.jpg"
                   alt="Taxi Service photo"
-                  width="360"
-                  height="300"
+                  width="266"
+                  height="266"
                 />
                 <p class="portfolio-image-p">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -391,18 +414,22 @@
                 </p>
               </div>
               <div class="nume-categ">
-                <h3 class="qualities-htrei">Taxi Service</h3>
-                <p class="qualities-p">Marketing</p>
+                <h3 class="qualities-htrei port">Taxi Service</h3>
+                <p class="qualities-p portof">Marketing</p>
               </div>
             </li>
             <li class="portfolio-item">
               <div class="portfolio-image-div">
                 <img
                   class="image"
+                  srcset="
+                    ./images/photo-screen-illustration.jpg    1x,
+                    ./images/photo-screen-illustration@2x.jpg 2x
+                  "
                   src="./images/photo-screen-illustration.jpg"
                   alt="Screen Illustrations photo"
-                  width="360"
-                  height="300"
+                  width="266"
+                  height="266"
                 />
                 <p class="portfolio-image-p">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -411,18 +438,22 @@
                 </p>
               </div>
               <div class="nume-categ">
-                <h3 class="qualities-htrei">Screen Illustrations</h3>
-                <p class="qualities-p">Design</p>
+                <h3 class="qualities-htrei port">Screen Illustrations</h3>
+                <p class="qualities-p portof">Design</p>
               </div>
             </li>
             <li class="portfolio-item">
               <div class="portfolio-image-div">
                 <img
                   class="image"
+                  srcset="
+                    ./images/photo-online-courses.jpg    1x,
+                    ./images/photo-online-courses@2x.jpg 2x
+                  "
                   src="./images/photo-online-courses.jpg"
                   alt="Online Courses photo"
-                  width="360"
-                  height="300"
+                  width="266"
+                  height="266"
                 />
                 <p class="portfolio-image-p">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -431,8 +462,8 @@
                 </p>
               </div>
               <div class="nume-categ">
-                <h3 class="qualities-htrei">Online Courses</h3>
-                <p class="qualities-p">Marketing</p>
+                <h3 class="qualities-htrei port">Online Courses</h3>
+                <p class="qualities-p portof">Marketing</p>
               </div>
             </li>
           </ul>
@@ -502,7 +533,7 @@
 
             <button class="button-subscribe" type="submit">
               Subscribe
-              <svg class="svg-subscribe" width="24" height="24">
+              <svg class="svg-subscribe" width="240" height="24">
                 <use href="./images/icons.svg#icon-subscribe"></use>
               </svg>
             </button>
@@ -511,18 +542,81 @@
       </div>
     </footer>
 
+    <!-- <div class="modal-backdrop"> -->
+    <div class="mobile-backdrop">
+      <div class="mobile-menu">
+        <button type="button" class="btn-close-mobile">
+          <svg class="mobile-icon-close" width="24" height="24">
+            <use href="./images/icons.svg#icon-close" />
+          </svg>
+        </button>
+
+        <form class="mobile-form">
+          <div class="mobile-nav-menu">
+            <a class="mobile-li" href="./index.html">Studio</a>
+            <a class="mobile-li" href="">Portfolio</a>
+            <a class="mobile-li" href="">Contacts</a>
+          </div>
+
+          <address class="mobile-address">
+            <ul class="mobile-contact">
+              <li>
+                <a class="contact-adress" href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+              <li>
+                <a class="contact-adress" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+            </ul>
+          </address>
+
+          <ul class="social-networks-mobile">
+            <li class="social-item">
+              <a href="" class="social-link">
+                <svg class="social-svg" width="16" height="16">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-item">
+              <a href="" class="social-link">
+                <svg class="social-svg" width="16" height="16">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-item">
+              <a href="" class="social-link">
+                <svg class="social-svg" width="16" height="16">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-item">
+              <a href="" class="social-link">
+                <svg class="social-svg" width="16" height="16">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </form>
+      </div>
+    </div>
+
     <div class="modal-backdrop">
       <div class="modal-container">
-        <!-- <h4>Titlu modal</h4> -->
-
         <button type="button" class="btn-close-modal">
           <svg class="modal-icon-close" width="8" height="8">
             <use href="./images/icons.svg#icon-close" />
           </svg>
         </button>
-        <!-- <div class="modal-content"> -->
+
         <p class="modal-p">Leave your contacts and we will call you back</p>
-        <form>
+        <form class="modal-form">
           <div class="modal-inputs">
             <label class="label-class" for="user-name">Name</label>
             <div class="modal-div-input">
@@ -581,13 +675,13 @@
               value="true"
               name="user-privacy"
             />
-            <label class="modal-terms" for="user-privacy"
-              >I accept the terms and conditions of the
+            <label class="modal-terms" for="user-privacy">
               <span class="modal-span">
                 <svg class="span-svg" width="10" height="8">
                   <use href="./images/icons.svg#icon-checkbox"></use>
                 </svg>
               </span>
+              I accept the terms and conditions of the
               <a href="#" class="modal-policy">Privacy Policy</a>
             </label>
           </div>
