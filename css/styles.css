@@ -1362,7 +1362,8 @@ img {
 
 .modal-backdrop.hidden,
 .mobile-menu.hidden {
-  visibility: initial;
+  /* visibility: initial; */
+  display: none;
 }
 
 @media (min-width: 768px) {

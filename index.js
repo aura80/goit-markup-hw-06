@@ -1,11 +1,6 @@
 // document.addEventListener('DOMContentLoaded', function () {
 //     const buttonModal = document.querySelector(".btn-modal");
 //     const backdropModal = document.querySelector(".modal-backdrop");
-//     // const backdrop = document.querySelector(".mobile-backdrop");
-
-//     // button.addEventListener("click", () => {
-//     //     backdrop.classList.add("is-open");
-//     // });
 
 //     buttonModal.addEventListener("click", toggleModal);
 
@@ -23,11 +18,10 @@
 //         backdropModal.classList.toggle("is-open");
 //     }
 
-//     // Burger menu
+// //     // Burger menu
 
 //     const buttonBurger = document.querySelector(".btn-menu");
 //     const backdropBurger = document.querySelector(".mobile-backdrop");
-//     // const burger = document.querySelector(".modal-backdrop");
 
 //     buttonBurger.addEventListener("click", toggleBurger);
 
