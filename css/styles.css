@@ -1360,6 +1360,11 @@ img {
   visibility: initial;
 }
 
+.modal-backdrop.hidden,
+.mobile-menu.hidden {
+  visibility: initial;
+}
+
 @media (min-width: 768px) {
   .modal-container {
     position: absolute;
